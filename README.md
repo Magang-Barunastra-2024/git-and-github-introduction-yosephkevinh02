@@ -1,20 +1,51 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tbEHDGEc)
+
 # Git and Github Introduction
 
-| Nama  | Division        | Sub-Division  |
+| Name  | Division        | Sub-Division  |
 | ----- | ---------- | ---------- |
-| Name here   | ELC/PGR | Sub-div |
+| Yoseph Kevin Hendrata   | PGR | Vision and Control |
 
-## Early Procedure
+## A. Early Procedure
+### **1. Install Git on PC/Laptop**  
+   ```
+   https://git-scm.com/downloads
+   ```
 
-## Create Repository
+### **2. Create a GitHub Account**  
+   ```
+   https://github.com/join
+   ```
 
-## Push File from Local to Github
+### **3. Configure Git**
+   ```
+   git config --global user.name "your_username"  
+   git config --global user.email "your_mail@mail.com"
+   ```
 
-## Create New Branch in Github 
+### **4. Add SSH Keys**  
+   #### a. Create an SSH key
+   ```
+   ssh-keygen -t ed25519 -C "your_mail@mail.com"`  
+   ### Hit enter twice to continue ###
+   ```
+   #### b. Copy the SSH key
+   ```
+    cd ~/.ssh
+    cat id_ed25519.pub
+    ### Block and copy the SSH key ###
+   ```  
+   #### c. Go to **GitHub Settings** → **SSH and GPG Keys** → **New SSH Key**
+   #### d. Fill title and paste the SSH key using `Ctrl + V` or `Cmd + V` into the "Key" field
 
-## Delete Branch in Github
+## B. Create Repository
 
-## Merging Branch in Github
+## C. Push File from Local to Github
 
-## Other Procedure
+## D. Create New Branch in Github 
+
+## E. Delete Branch in Github
+
+## F. Merging Branch in Github
+
+## G. Other Procedure
