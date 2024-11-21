@@ -69,9 +69,9 @@
 
    ```bash
       git init
-      git remote add origin #<SSH_Link>#
+      git remote add origin <SSH_Link>
       git branch -M main
-      git pull origin #<Branch_Name>#
+      git pull origin <Branch_Name>
    ```
 
 #### b. Git Clone
@@ -80,8 +80,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp; 2) Open Git Bash / Terminal
 
    ```bash
-      git clone #<SSH_Link>#
-      cd ./#Repository_Name#
+      git clone <SSH_Link>
+      cd ./<Repository_Name>
       git branch -M main
    ```
 
