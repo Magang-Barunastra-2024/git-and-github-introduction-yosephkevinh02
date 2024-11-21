@@ -99,7 +99,31 @@
 
 ## D. Create New Branch in Github
 
+### **1. Open Local Repository Folder and Run Git Bash / Terminal**
+
+   ```bash
+   git checkout -B <New_Branch_Name> 
+   ```
+
+### **2. Switch to Existing Branch**
+
+   ```bash
+   git switch <Branch_Name>
+   ```
+
 ## E. Delete Branch in Github
+
+### **1. Switch to Different Branch (Not-Deleted Branch)**
+
+   ```bash
+   git switch <Branch_Name>
+   ```
+
+### **2. Delete Target Branch**
+
+   ```bash
+   git branch -d <Branch_Name>
+   ```
 
 ## F. Merging Branch in Github
 
