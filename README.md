@@ -127,4 +127,16 @@
 
 ## F. Merging Branch in Github
 
+### **1. Switch to Target Branch**
+
+   ```bash
+   git switch <Target_Branch_Name>
+   ```
+
+### **2. Merge the Source Branch into the Target Branch**
+
+   ```bash
+   git merge <Source_Branch_Name>
+   ```
+
 ## G. Other Procedure
