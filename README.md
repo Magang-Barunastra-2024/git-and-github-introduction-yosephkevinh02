@@ -2,6 +2,8 @@
 
 # Git and Github Introduction
 
+![git-and-github](/images/git_github.svg)
+
 | Name  | Division        | Sub-Division  |
 | ----- | ---------- | ---------- |
 | Yoseph Kevin Hendrata   | PGR | Vision and Control |
