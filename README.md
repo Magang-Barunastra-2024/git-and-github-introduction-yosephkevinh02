@@ -39,12 +39,12 @@
 #### b. Copy the SSH key
 
    ```bash
-    cd ~/.ssh
-    cat id_ed25519.pub
-    ### Block and copy the SSH key ###
+   cd ~/.ssh
+   cat id_ed25519.pub
+   ### Block and copy the SSH key ###
    ```  
 
-#### c. Go to **GitHub Settings** → **SSH and GPG Keys** → **New SSH Key**
+#### c. Go to **GitHub Settings** -> **SSH and GPG Keys** -> **New SSH Key**
 
 #### d. Fill title field and paste the SSH key using `Ctrl + V` or `Cmd + V` into key field
 
