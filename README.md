@@ -140,3 +140,21 @@
    ```
 
 ## G. Other Procedure
+
+### **1. Check Repository Status**
+
+   ```bash
+   git status
+   ```
+
+### **2. List of Branches**
+
+   ```bash
+   git branch
+   ```
+
+### **3. Git Documentation**
+
+   ```bash
+   https://git-scm.com/docs
+   ```
