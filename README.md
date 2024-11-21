@@ -50,6 +50,41 @@
 
 ## B. Create Repository
 
+### **1. Open Github -> Create a New Repository**
+
+   ```bash
+   https://github.com/new
+   ```
+
+### **2. Fill repository name, set to private or public, and click `Create Repository`**
+
+### **3. Open Repository -> Code -> SSH -> Copy SSH Link**
+
+### **4. Connect the repository to local folder**
+
+#### a. Local Folder
+
+&nbsp;&nbsp;&nbsp;&nbsp; 1) Create a folder with the same name as the repository  
+&nbsp;&nbsp;&nbsp;&nbsp; 2) Open Git Bash / Terminal
+
+   ```bash
+      git init
+      git remote add origin #<SSH_Link>#
+      git branch -M main
+      git pull origin #<Branch_Name>#
+   ```
+
+#### b. Git Clone
+
+&nbsp;&nbsp;&nbsp;&nbsp; 1) Navigate to directory in File Explorer  
+&nbsp;&nbsp;&nbsp;&nbsp; 2) Open Git Bash / Terminal
+
+   ```bash
+      git clone #<SSH_Link>#
+      cd ./#Repository_Name#
+      git branch -M main
+   ```
+
 ## C. Push File from Local to Github
 
 ## D. Create New Branch in Github
