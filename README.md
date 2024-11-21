@@ -87,6 +87,16 @@
 
 ## C. Push File from Local to Github
 
+### **1. Add or Modify Files in Local**
+
+### **2. Open Git Bash / Terminal**
+
+   ```bash
+      git add .
+      git commit -m "commit_description"
+      git push origin <Branch_Name>
+   ```
+
 ## D. Create New Branch in Github
 
 ## E. Delete Branch in Github
